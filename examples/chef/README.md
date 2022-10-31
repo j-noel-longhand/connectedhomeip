@@ -31,7 +31,7 @@ All device types available (.zap files) are found inside the `devices` folder.
 
     # ESP32 Linux
 
-    TTY: /dev/ttyACM0
+   TTY: /dev/ttyUSB0
 
     # NRFCONNECT macOS
 
@@ -39,7 +39,7 @@ All device types available (.zap files) are found inside the `devices` folder.
 
     # NRFCONNECT Linux
 
-    TTY: /dev/ttyUSB0
+    TTY: /dev/ttyACM0
 ```
 
 4. Run `$ chef.py -u` to update zap and the toolchain (on selected platforms).
